@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("Assets/background-image.png");
+    background-size: cover;
+    overflow: hidden;
+}
+.contnr{
+    height: 100vh;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-title{
+    display: inline-block;
+    margin: auto;
+}
+
+.nav-title li{
+    padding-left: 1em;
+}
+
+/* .custbtn{
+    
+    padding:10px;
+    border-radius: 5px;
+    background-color: #EC2997;
+    color:white;
+} */
+
+.nav-title li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right-icons{
+    position: relative;
+    right:5%;
+    display: inline-block;
+}
+.right-icons button{
+    background-color: #EC2997;
+    color:white;
+}
+
+.right-icons li{
+    padding-left: 1em;
+}
+
+.home{
+    position: relative;
+    left: 35%;
+    top:-50%;
+    border: none;
+    border-radius: 20px;
+    padding:5px;
+    background-color: white;
+    box-shadow: 0 0 15px 6px grey;
+}
+
+.car{
+    position: relative;
+    left:10%;
+    top:-70%;
+    border: none;
+    border-radius: 20px;
+    padding:5px;
+    background-color: white;
+    box-shadow: 0 0 15px 6px grey;
+
+}
+
+.details{
+    display: inline-block;
+    position: relative;
+    left:7%;
+    top:7%;
+}
+
+.details h1{
+    font-size: 70px;
+}
+
+.details p{
+    font-size: 25px;
+}
+
+.details button{
+    margin-left:7%;
+    padding: 10px 30px;
+    background-color: #EC2997;
+    border: #EC2997;
+    color:white;
+}
+
+.contacts{
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+.contacts li{
+    padding:0.3em;
+}
+
+.contacts li:hover{
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+    display: inline-block;
+    left: 45%;
+    top:-80%;
+}
+
+.hero img{
+    max-height:500px;
+}
